@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hideout Café – Escape to Flavour</title>
+    <meta name="description" content="A student-friendly cafe serving quick and tasty Indian and Asian fast foods in Greater Noida">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#hero">
+                    <img src="assets/logo.svg" alt="Hideout Café Logo">
+                </a>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#hero" class="active">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#customize">Build Burger</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#menu" class="btn-order">Order Now</a></li>
+                    <li><div class="theme-switch-wrapper">
+                         <label class="theme-switch" for="checkbox">
+                            <input type="checkbox" id="checkbox" />
+                            <div class="slider round">
+                                <i class="fas fa-sun"></i>
+                                <i class="fas fa-moon"></i>
+                            </div>
+                         </label>
+                    </div></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>THE HIDEOUT</h1>
+                <h2>ESCAPE TO FLAVOUR!</h2>
+                <div class="cta-buttons">
+                    <a href="#menu" class="btn btn-primary">Order Now</a>
+                    <a href="#menu" class="btn btn-secondary">View Menu</a>
+                </div>
+                <div class="location-info">
+                    <p><i class="fas fa-map-marker-alt"></i> Near Kalam Cottage I - EZ STAYS, Knowledge Park III, Greater Noida, U.P (201310)</p>
+                    <p><i class="fas fa-phone"></i> +91 97170 19978 / +91 79798 55427</p>
+                </div>
+            </div>
+            <div class="hero-image">
+                <!-- Recreated hero image with burger component visualization -->
+                <div class="burger-components">
+                    <div class="burger-part bun-top"></div>
+                    <div class="burger-part onion"></div>
+                    <div class="burger-part tomato"></div>
+                    <div class="burger-part lettuce"></div>
+                    <div class="burger-part cheese"></div>
+                    <div class="burger-part patty"></div>
+                    <div class="burger-part bun-bottom"></div>
+                    <div class="emoji emoji-1"><i class="fas fa-heart-eyes"></i></div>
+                    <div class="emoji emoji-2"><i class="fas fa-grin"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Us</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Story</h3>
+                    <p>Welcome to Hideout Café, a student-friendly establishment serving quick and tasty meals since 2025. We take pride in offering a delightful mix of Indian and Asian fast foods, beverages, and quick bites that cater to all tastes and preferences.</p>
+                    <p>Our café provides a cozy atmosphere where you can escape from the hustle and bustle of everyday life and enjoy delicious food with friends and family.</p>
+                    <div class="chef-highlight">
+                        <h4>Run by <span>Chef Thapa</span></h4>
+                        <p>Our talented Chef Thapa brings years of culinary expertise to create the perfect blend of flavors that will tantalize your taste buds.</p>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814" alt="Hideout Café Interior">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chef's Special Section -->
+    <section id="chefs-special">
+        <div class="container">
+            <div class="section-title">
+                <h2>Chef's Special</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="special-showcase">
+                <div class="special-item active" data-item="1">
+                    <div class="special-image">
+                        <div class="special-badge">
+                            <i class="fas fa-star"></i>
+                            <span>Today's Special</span>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1599487488170-d11ec9c172f0" alt="Chef's Special - Signature Burger">
+                    </div>
+                    <div class="special-content">
+                        <h3>Signature Burger</h3>
+                        <p class="special-description">Our chef's signature creation with special sauce, perfectly grilled patty, and fresh vegetables.</p>
+                        <div class="special-price">₹ 160</div>
+                        <div class="special-ingredients">
+                            <span>Handcrafted bun</span>
+                            <span>Premium beef patty</span>
+                            <span>Chef's secret sauce</span>
+                            <span>Fresh vegetables</span>
+                        </div>
+                        <a href="#menu" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+                <div class="special-item" data-item="2">
+                    <div class="special-image">
+                        <div class="special-badge">
+                            <i class="fas fa-star"></i>
+                            <span>Customer Favorite</span>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1546549032-9571cd6b27df" alt="Chef's Special - Chilli Chicken Momos">
+                    </div>
+                    <div class="special-content">
+                        <h3>Chilli Chicken Momos</h3>
+                        <p class="special-description">Juicy momos filled with spiced chicken, tossed in our special chilli sauce.</p>
+                        <div class="special-price">₹ 120</div>
+                        <div class="special-ingredients">
+                            <span>Handmade dough</span>
+                            <span>Marinated chicken</span>
+                            <span>Himalayan spices</span>
+                            <span>Spicy chilli sauce</span>
+                        </div>
+                        <a href="#menu" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+                <div class="special-item" data-item="3">
+                    <div class="special-image">
+                        <div class="special-badge">
+                            <i class="fas fa-star"></i>
+                            <span>New Addition</span>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1593560708920-61b98681d5d8" alt="Chef's Special - Oreo Shake Deluxe">
+                    </div>
+                    <div class="special-content">
+                        <h3>Oreo Shake Deluxe</h3>
+                        <p class="special-description">A premium version of our popular Oreo shake with extra cream, chocolate syrup, and cookie crumbles.</p>
+                        <div class="special-price">₹ 90</div>
+                        <div class="special-ingredients">
+                            <span>Premium ice cream</span>
+                            <span>Oreo cookies</span>
+                            <span>Chocolate syrup</span>
+                            <span>Whipped cream</span>
+                        </div>
+                        <a href="#menu" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+                <div class="special-controls">
+                    <button class="special-prev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="special-dots">
+                        <span class="special-dot active" data-dot="1"></span>
+                        <span class="special-dot" data-dot="2"></span>
+                        <span class="special-dot" data-dot="3"></span>
+                    </div>
+                    <button class="special-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Menu</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="menu-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-category="starters">Starters</button>
+                    <button class="tab-btn" data-category="main-course">Main Course</button>
+                    <button class="tab-btn" data-category="beverages">Beverages & Shakes</button>
+                    <button class="tab-btn" data-category="rolls">Rolls & Quick Bread</button>
+                    <button class="tab-btn" data-category="momos">Momos</button>
+                </div>
+                <div class="tab-content">
+                    <!-- Starters Tab -->
+                    <div class="tab-pane active" id="starters">
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <div class="item-name">Chilli Potato</div>
+                                <div class="item-price">₹ 70/110</div>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">Veg Manchurian</div>
+                                <div class="item-price">₹ 70/130</div>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">Chilli Paneer</div>
+                                <div class="item-price">₹ 100/180</div>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">Chicken Manchurian</div>
+                                <div class="item-price">₹ 80/150</div>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">Chilli Chicken</div>
+                                <div class="item-price">₹ 110/200</div>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">Chicken Lollipop</div>
+                                <div class="item-price">₹ 130/250</div>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">Ramen Noodles</div>
+                                <div class="item-price">₹ 150</div>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">Thuppa</div>
+                                <div class="item-price">₹ 150</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Main Course Tab -->
+                    <div class="tab-pane" id="main-course">
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <div class="item-name">Veg Fried Rice</div>
+                                <div class="item-price">₹ 50/80</div>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">Chicken Fried Rice</div>
+                                <div class="item-price">₹ 80/150</div>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">Veg Noodles</div>
+                                <div class="item-price">₹ 50/80</div>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">Chicken Noodles</div>
+                                <div class="item-price">₹ 80/150</div>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">Paneer Noodles</div>
+                                <div class="item-price">₹ 80/130</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Beverages Tab -->
+                    <div class="tab-pane" id="beverages">
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <div class="item-name">Masala Tea</div>
+                                <div class="item-price">₹ 15</div>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">Hot Coffee</div>
+                                <div class="item-price">₹ 25</div>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">Cold Coffee</div>
+                                <div class="item-price">₹ 50</div>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">Banana Shake</div>
+                                <div class="item-price">₹ 60</div>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">Oreo Shake</div>
+                                <div class="item-price">₹ 70</div>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">Mango Shake</div>
+                                <div class="item-price">Vary</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Rolls Tab -->
+                    <div class="tab-pane" id="rolls">
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <div class="item-name">Veg Roll</div>
+                                <div class="item-price">₹ 50</div>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">Paneer Roll</div>
+                                <div class="item-price">₹ 80</div>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">Chicken Roll</div>
+                                <div class="item-price">₹ 90</div>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">Paneer Double Egg Roll</div>
+                                <div class="item-price">₹ 110</div>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">Chicken Double Egg Roll</div>
+                                <div class="item-price">₹ 110</div>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">Aloo Paratha</div>
+                                <div class="item-price">₹ 50</div>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">Paneer Paratha</div>
+                                <div class="item-price">₹ 80</div>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">Double Egg Omelette</div>
+                                <div class="item-price">₹ 40</div>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">Bread Omelette</div>
+                                <div class="item-price">₹ 50</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Momos Tab -->
+                    <div class="tab-pane" id="momos">
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <div class="item-name">Veg Momo</div>
+                                <div class="item-price">₹ 50/80</div>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">Chicken Momo</div>
+                                <div class="item-price">₹ 60/100</div>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">Paneer Momo</div>
+                                <div class="item-price">₹ 60/100</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2>Gallery</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a" alt="Food at Hideout Café">
+                    <div class="gallery-overlay">
+                        <h3>Delicious Starters</h3>
+                        <p>Start your meal with our tasty appetizers</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1496412705862-e0088f16f791" alt="Food at Hideout Café">
+                    <div class="gallery-overlay">
+                        <h3>Fresh Ingredients</h3>
+                        <p>We use only the freshest ingredients</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1552611052-60b2c00a2be8" alt="Food at Hideout Café">
+                    <div class="gallery-overlay">
+                        <h3>Main Course</h3>
+                        <p>Savory dishes that satisfy your cravings</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d" alt="Food at Hideout Café">
+                    <div class="gallery-overlay">
+                        <h3>Special Rolls</h3>
+                        <p>Try our delicious roll varieties</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1488667499475-42a530fab02b" alt="Coffee at Hideout Café">
+                    <div class="gallery-overlay">
+                        <h3>Hot Beverages</h3>
+                        <p>Perfect coffee to start your day</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1489866492941-15d60bdaa7e0" alt="Beverage at Hideout Café">
+                    <div class="gallery-overlay">
+                        <h3>Refreshing Shakes</h3>
+                        <p>Cool down with our delicious shakes</p>
+                    </div>
+                </div>
+                <div class="gallery-item wide">
+                    <img src="https://images.unsplash.com/photo-1612192527395-06b72da6b35a" alt="Hideout Café Interior">
+                    <div class="gallery-overlay">
+                        <h3>Our Cozy Space</h3>
+                        <p>A warm and welcoming environment</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1578231177134-f1bbe379b054" alt="Hideout Café Interior">
+                    <div class="gallery-overlay">
+                        <h3>Relaxed Atmosphere</h3>
+                        <p>Perfect for casual dining and hangouts</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customization Section -->
+    <section id="customize">
+        <div class="container">
+            <div class="section-title">
+                <h2>Build Your Burger</h2>
+                <div class="divider"></div>
+                <p>Drag and drop ingredients to create your perfect burger</p>
+            </div>
+            
+            <div class="customizer-container">
+                <div class="ingredients-panel">
+                    <h3>Available Ingredients</h3>
+                    <div class="ingredients-list">
+                        <div class="ingredient" draggable="true" data-ingredient="bun-top">
+                            <img src="https://cdn-icons-png.flaticon.com/128/1033/1033020.png" alt="Top Bun">
+                            <span>Top Bun</span>
+                        </div>
+                        <div class="ingredient" draggable="true" data-ingredient="lettuce">
+                            <img src="https://cdn-icons-png.flaticon.com/128/1923/1923515.png" alt="Lettuce">
+                            <span>Lettuce</span>
+                        </div>
+                        <div class="ingredient" draggable="true" data-ingredient="tomato">
+                            <img src="https://cdn-icons-png.flaticon.com/128/1041/1041383.png" alt="Tomato">
+                            <span>Tomato</span>
+                        </div>
+                        <div class="ingredient" draggable="true" data-ingredient="cheese">
+                            <img src="https://cdn-icons-png.flaticon.com/128/2455/2455206.png" alt="Cheese">
+                            <span>Cheese</span>
+                        </div>
+                        <div class="ingredient" draggable="true" data-ingredient="patty">
+                            <img src="https://cdn-icons-png.flaticon.com/128/3048/3048127.png" alt="Patty">
+                            <span>Beef Patty</span>
+                        </div>
+                        <div class="ingredient" draggable="true" data-ingredient="onion">
+                            <img src="https://cdn-icons-png.flaticon.com/128/1682/1682908.png" alt="Onion">
+                            <span>Onion</span>
+                        </div>
+                        <div class="ingredient" draggable="true" data-ingredient="pickle">
+                            <img src="https://cdn-icons-png.flaticon.com/128/1691/1691951.png" alt="Pickle">
+                            <span>Pickle</span>
+                        </div>
+                        <div class="ingredient" draggable="true" data-ingredient="sauce">
+                            <img src="https://cdn-icons-png.flaticon.com/128/4241/4241664.png" alt="Special Sauce">
+                            <span>Special Sauce</span>
+                        </div>
+                        <div class="ingredient" draggable="true" data-ingredient="bun-bottom">
+                            <img src="https://cdn-icons-png.flaticon.com/128/1033/1033020.png" alt="Bottom Bun">
+                            <span>Bottom Bun</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="burger-preview">
+                    <h3>Your Custom Burger</h3>
+                    <div class="burger-construction-area" id="burgerConstruction">
+                        <div class="burger-placeholder">
+                            <i class="fas fa-arrow-left"></i>
+                            <p>Drag ingredients here</p>
+                        </div>
+                    </div>
+                    <div class="burger-actions">
+                        <button class="btn btn-secondary" id="resetBurger">Reset</button>
+                        <button class="btn btn-primary" id="orderCustomBurger">Order Now</button>
+                    </div>
+                    <div class="burger-price">
+                        <span>Total Price: </span>
+                        <span id="burgerPrice">₹ 120</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location:</h4>
+                            <p>Near Kalam Cottage I - EZ STAYS, Knowledge Park III, Greater Noida, U.P (201310)</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Call Us:</h4>
+                            <p><a href="tel:+919717019978">+91 97170 19978</a></p>
+                            <p><a href="tel:+917979855427">+91 79798 55427</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Opening Hours:</h4>
+                            <p>Monday - Sunday: 9:00 AM - 10:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="location-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.3374527094795!2d77.48641691507857!3d28.47328998248303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cea7d1b74d4e9%3A0x7ba6bedc9a2b537!2sKnowledge%20Park%20III%2C%20Greater%20Noida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1652178987654!5m2!1sen!2sin" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form id="feedbackForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo-with-tagline">
+                        <img src="assets/logo.svg" alt="Hideout Café Logo">
+                        <p><img src="assets/logo.svg" alt="Hideout Café Icon" class="inline-logo"> Escape to Flavour!</p>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#customize">Build Burger</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Near Kalam Cottage I - EZ STAYS, Knowledge Park III, Greater Noida, U.P (201310)</p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:+919717019978">+91 97170 19978</a></p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:+917979855427">+91 79798 55427</a></p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Hideout Café. All Rights Reserved.</p>
+                <p>Created with <i class="fas fa-heart"></i> by Chef Thapa</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
